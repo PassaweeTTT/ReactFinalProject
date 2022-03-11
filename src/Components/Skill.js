@@ -32,14 +32,14 @@ function Skills() {
                             text={'Basic'}
                         />
                         <ProgressBar 
-                            title={'Japanese'}
-                            width={'5%'}
-                            text={'Beginner'}
+                            title={'Drawing & Painting'}
+                            width={'80%'}
+                            text={''}
                         />
                         <ProgressBar 
-                            title={'ENGLISH'}
-                            width={'80%'}
-                            text={'Fluent'}
+                            title={'React JS'}
+                            width={'50%'}
+                            text={'Basic'}
                         />
                     </div>
                 </InnerLayout>
