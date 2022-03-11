@@ -1,6 +1,6 @@
 import Title from '../Components/Title'
 import { InnerLayout, MainLayout } from '../styles/Layout'
-import Profile from '../Components/Profile'
+import Portfolio from '../Components/Portfolio'
 
 
 const PortfolioPage = () => {
@@ -9,7 +9,7 @@ const PortfolioPage = () => {
     <MainLayout>
             <Title title={'Portfolio'} span={'Portfolio'}/>
               <InnerLayout>
-                <Profile/> 
+                <Portfolio/>
               </InnerLayout>
 
              

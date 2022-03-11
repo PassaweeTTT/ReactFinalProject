@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
 import profile from '../img/profile.jpg'
+import pro2 from '../img/pro2.jpg'
 
 const Profile = () => {
     return (
         <ProfileStyled>
             <div className="left-content">
-                <img src={profile} alt=''/>
+                <img src={pro2} alt=''/>
             </div>
             <div className="right-content">
                 <h1><span>Passawee Wanwilai </span></h1>
@@ -24,7 +25,7 @@ const Profile = () => {
 const ProfileStyled = styled.div`
     display: flex;
     img{
-        width: 100%;
+        width: 70%;
         border-radius: 10%;
     }
     .left-content{
@@ -34,7 +35,7 @@ const ProfileStyled = styled.div`
        
     }
     .right-content{
-        padding-left: 3.5rem;
+        padding-left: 1rem;
         position: relative;
         h1{
             font-size: 2rem;
