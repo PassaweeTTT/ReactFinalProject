@@ -64,7 +64,7 @@ const GlobalStyled = createGlobalStyle`
     font-size: 1.2rem;
     list-style: none;
     text-decoreation: none;
-    font-family: 'Mitr', sans-serif;
+    font-family: 'Righteous', sans-serif;
 }
 
 body{
